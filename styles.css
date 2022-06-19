@@ -69,3 +69,19 @@ button:hover {
   height: 400px;
   padding: 40px;
 }
+
+/* Media Queries For Responsiveness */
+
+@media (max-width: 375px) {
+  body {
+    margin: 2px;
+  }
+  .flex_container, .grid {
+    display: block;
+  margin: 4rem 1rem;
+
+  }
+  .flex_container > div {
+    width: inherit;
+  }
+}
